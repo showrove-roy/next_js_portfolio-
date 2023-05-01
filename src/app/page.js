@@ -1,4 +1,4 @@
-export default function page() {
+  export default function page() {
   return (
     <>
       <div id='home' className='h-screen '>
