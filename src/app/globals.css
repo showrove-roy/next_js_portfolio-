@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-  :root {
-    background-color: #0c1124;
-    scroll-behavior: smooth;
-  }
+:root {
+  background-color: #0c1124;
+  scroll-behavior: smooth;
+}
 @layer base {
-
   body {
     background: url("../../public/bg.jpeg") no-repeat center center/cover fixed;
   }
@@ -16,5 +15,30 @@
 @layer components {
   .maxW {
     @apply max-w-7xl px-2 md:px-10 mx-auto;
+  }
+  .mBTN {
+    position: relative;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+  }
+
+  .mBTN::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(5 150 105);
+    transition: 0.5s ease-in-out;
+    clip-path: circle(0% at 50% 50%);
+    z-index: -1;
+    border-radius: 0.5rem;
+  }
+
+  .mBTN:hover::before {
+    clip-path: circle(100% at 50% 50%);
+  }
+
+  .cardBG {
+    border: 1px solid rgba(215, 209, 255, 0.208) !important;
+    background-color: hsla(0, 0%, 100%, 0.15) !important;
   }
 }
