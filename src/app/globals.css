@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+  :root {
+    background-color: #0c1124;
+    scroll-behavior: smooth;
+  }
+@layer base {
 
+  body {
+    background: url("../../public/bg.jpeg") no-repeat center center/cover fixed;
+  }
+}
+
+@layer components {
+  .maxW {
+    @apply max-w-7xl px-2 md:px-10 mx-auto;
+  }
 }
