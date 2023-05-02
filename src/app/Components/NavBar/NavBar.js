@@ -3,13 +3,13 @@ import MainBTN from "../MainBTN/MainBTN";
 
 export default function NavBar() {
   return (
-    <header className='bg-[hsla(0,0%,100%,.064)] backdrop-blur-md sticky top-0 z-50'>
+    <header className='bg-[hsla(0,0%,100%,.064)] backdrop-blur-md lg:sticky top-0 z-50'>
       <nav className='maxW py-2 flex justify-between items-center'>
         <div className='bg-gray-700 py-2 px-3 rounded-lg'>
           <h1 className='text-xl font-semibold  text-white'>Showrove Roy</h1>
         </div>
         {/*  */}
-        <div className=''>
+        <div className='hidden lg:block'>
           <div className='flex px-1 py-1 font-medium text-white border border-white rounded-lg cardBG'>
             <Link
               href='/'
