@@ -5,6 +5,7 @@
 :root {
   background-color: #0c1124;
   scroll-behavior: smooth;
+  color: rgba(255, 255, 255, 0.698);
 }
 @layer base {
   body {
@@ -26,7 +27,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: rgb(5 150 105);
+    background: #059669;
     transition: 0.5s ease-in-out;
     clip-path: circle(0% at 50% 50%);
     z-index: -1;
@@ -40,5 +41,18 @@
   .cardBG {
     border: 1px solid rgba(215, 209, 255, 0.208) !important;
     background-color: hsla(0, 0%, 100%, 0.15) !important;
+  }
+
+  .titleN span {
+    font-size: 4rem;
+    font-weight: 900;
+    display: inline-block;
+    background-clip: text;
+    transition: 1.2s all linear;
+    text-transform: uppercase;
+  }
+  .titleN span:hover {
+    font-weight: 300;
+    transition: 250ms all linear;
   }
 }

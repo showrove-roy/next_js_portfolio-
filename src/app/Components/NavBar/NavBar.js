@@ -5,10 +5,8 @@ export default function NavBar() {
   return (
     <header className='bg-[hsla(0,0%,100%,.064)] backdrop-blur-md sticky top-0 z-50'>
       <nav className='maxW py-2 flex justify-between items-center'>
-        <div className=''>
-          <h1 className='text-xl text-emerald-500 font-semibold uppercase'>
-            Showrove Roy
-          </h1>
+        <div className='bg-gray-700 py-2 px-3 rounded-lg'>
+          <h1 className='text-xl font-semibold  text-white'>Showrove Roy</h1>
         </div>
         {/*  */}
         <div className=''>
@@ -126,7 +124,10 @@ export default function NavBar() {
 
         {/*  */}
         <div className=''>
-          <a href='http://' target='_blank' rel='noopener noreferrer'>
+          <a
+            href='mailto:showrove200@gmail.com'
+            target='_blank'
+            rel='noopener noreferrer'>
             <MainBTN>Hire Me</MainBTN>
           </a>
         </div>
