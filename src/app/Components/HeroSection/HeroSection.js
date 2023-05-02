@@ -8,7 +8,7 @@ export default function HeroSection() {
         <div className='w-2/3'>
           <div className='titleN'>
             <span>I</span>
-            <span>`</span>
+            <span>{"'"}</span>
             <span>M</span>
           </div>
           <div className='titleN'>
@@ -26,13 +26,18 @@ export default function HeroSection() {
             <span>y</span>
           </div>
 
-          <h3 className="text-3xl font-semibold tracking-wide	mb-5">Your  Web  App  Developer</h3>
+          <h3 className='text-3xl font-semibold tracking-wide	mb-5'>
+            Your Web App Developer
+          </h3>
 
-          <MainBTN>My Resume</MainBTN>
+          <div className='flex gap-5'>
+            <MainBTN><span class="pr-1 wave">👋</span>{"Let's Talk"}</MainBTN>
+            <MainBTN>My Resume</MainBTN>
+          </div>
         </div>
         <div className='w-1/3'>
           <Image
-          className="rounded-xl"
+            className='rounded-xl'
             src={"/profile2.jpg"}
             alt='Picture of the author'
             width={300}
