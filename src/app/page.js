@@ -1,13 +1,15 @@
 import HeroSection from "./Components/HeroSection/HeroSection";
 import Service from "./Components/Service/Service";
+import ServiceCategory from "./Components/ServiceCategory/ServiceCategory";
 
 export default function page() {
   return (
     <>
-     <main className="maxW">
-     <HeroSection />
-      <Service/>
-     </main>
+      <main className='maxW'>
+        <HeroSection />
+        <Service />
+        <ServiceCategory />
+      </main>
     </>
   );
 }
