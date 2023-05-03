@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id='about' className='py-8 lg:py-16'>
-      <div className='bg-opacity-0 rounded-2xl bg-slate-600/20 ring-1 ring-blue-400/20 aboutMe'>
+    <section id='about' className='py-8'>
+      <div className='bg-opacity-0 rounded-2xl bg-slate-600/20 ring-1 ring-blue-400/20'>
         <div className='items-center py-6 md:flex '>
           <div className='flex-1 mx-5 font-sans text-white lg:mb-0 aboutText'>
             <h4 className='my-5 text-3xl font-bold lg:5xl'>About Me</h4>
