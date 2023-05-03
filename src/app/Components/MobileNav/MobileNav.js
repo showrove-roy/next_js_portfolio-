@@ -24,7 +24,7 @@ export default function MobileNav() {
             <span className='pl-2'>Home</span>
           </Link>
           <Link
-            href='/'
+            href='/#service'
             className='hover:bg-emerald-500 text-white flex flex-col items-center gap-1 py-2 px-1 rounded-lg cursor-pointer'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -48,7 +48,7 @@ export default function MobileNav() {
             <span className='pl-2'>Service</span>
           </Link>
           <Link
-            href='/'
+            href='/#portfolio'
             className='hover:bg-emerald-500 text-white flex flex-col items-center gap-1 py-2 px-1 rounded-lg cursor-pointer'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -72,7 +72,7 @@ export default function MobileNav() {
             <span className='pl-2'>Portfolio</span>
           </Link>
           <Link
-            href='/'
+            href='/#about'
             className='hover:bg-emerald-500 text-white flex flex-col items-center gap-1 py-2 px-1 rounded-lg cursor-pointer'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -96,7 +96,7 @@ export default function MobileNav() {
             <span className='pl-2'>About</span>
           </Link>
           <Link
-            href='/'
+            href='/#contact'
             className='hover:bg-emerald-500 text-white flex flex-col items-center gap-1 py-2 px-1 rounded-lg cursor-pointer'>
             <svg
               xmlns='http://www.w3.org/2000/svg'

@@ -31,7 +31,7 @@ export default function Project() {
   ];
 
   return (
-    <section className='py-8 lg:py-16'>
+    <section id="portfolio" className='py-8 lg:py-16'>
       <div className='flex flex-col justify-center text-center proTitle'>
         <h1 className='py-2 text-4xl font-bold text-purple-500 md:text-5xl'>
           Projects I’ve done

@@ -8,7 +8,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 export default function HeroSection() {
   return (
-    <section className='lg:py-24 py-8 flex md:flex-row flex-col md:justify-between items-center '>
+    <section className='lg:h-screen lg:py-0 py-8 flex md:flex-row flex-col md:justify-between items-center '>
       <div className='md:w-2/3 w-full mt-5 mb-10 md:text-left text-center'>
         <div className='titleN text-4xl sm:text-5xl md:text-6xl'>
           <span>I</span>

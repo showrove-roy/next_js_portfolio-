@@ -66,7 +66,7 @@ export default function Contact() {
             </SquareBTN>
           </Link>
         </div>
-        <p className='text-center mt-20'>
+        <p className='text-center md:mt-20 mt-10'>
           © 2023. All rights reserved by <strong>Showrove Roy</strong>
         </p>
       </div>
