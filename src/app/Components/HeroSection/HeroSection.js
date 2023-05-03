@@ -44,13 +44,13 @@ export default function HeroSection() {
       </div>
       <div className='md:w-1/3 w-full'>
         <Image
-          className='rounded-xl mx-auto w-80'
+          className='rounded-xl mx-auto'
           src={"/profile2.jpg"}
           alt='Picture of the author'
           width={500}
           height={500}
         />
-        <div className='flex gap-3 justify-center mt-3'>
+        <div className='flex gap-3 justify-evenly mt-3'>
           <Link
             target='_blank'
             rel='noopener noreferrer'
