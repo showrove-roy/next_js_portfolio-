@@ -1,5 +1,10 @@
 import Image from "next/image";
 import MainBTN from "../MainBTN/MainBTN";
+import Link from "next/link";
+import { GrFacebook } from "react-icons/gr";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 
 export default function HeroSection() {
   return (
@@ -25,7 +30,7 @@ export default function HeroSection() {
           <span>y</span>
         </div>
 
-        <h3 className='text-xl sm:text-2xl  font-semibold tracking-wide lg:tracking-widest	mb-5'>
+        <h3 className='text-xl sm:text-2xl  font-semibold tracking-wide lg:tracking-widest	mb-10'>
           Your Web App Developer
         </h3>
 
@@ -45,6 +50,33 @@ export default function HeroSection() {
           width={500}
           height={500}
         />
+        <div className='flex gap-3 justify-center mt-3'>
+          <Link
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://www.facebook.com/showrove.roy.3/'>
+            <GrFacebook className='text-2xl hover:text-emerald-500 hover:scale-125 duration-200' />
+          </Link>
+
+          <Link
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://wa.me/+8801725377836'>
+            <BsWhatsapp className='text-2xl hover:text-emerald-500 hover:scale-125 duration-200' />
+          </Link>
+          <Link
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/showrove-roy'>
+            <BsGithub className='text-2xl hover:text-emerald-500 hover:scale-125 duration-200' />
+          </Link>
+          <Link
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://www.linkedin.com/in/showrove/'>
+            <BsLinkedin className='text-2xl hover:text-emerald-500 hover:scale-125 duration-200' />
+          </Link>
+        </div>
       </div>
     </section>
   );
