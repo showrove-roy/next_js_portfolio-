@@ -1,4 +1,5 @@
 
+import MobileNav from "./Components/MobileNav/MobileNav";
 import NavBar from "./Components/NavBar/NavBar";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavBar />
         {children}
+        <MobileNav/>
       </body>
     </html>
   );
