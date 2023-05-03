@@ -12,7 +12,7 @@ export default function ProjectCard({ project }) {
           width={600}
           height={300}
           alt={projectName}
-          className='w-auto h-auto'
+          className='w-auto h-auto mx-auto'
         />
         <div className='flex items-center justify-between px-2 py-3'>
           <p className='text-xs sm:text-sm sm:font-semibold font-medium text-left text-white'>
