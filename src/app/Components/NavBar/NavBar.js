@@ -124,12 +124,12 @@ export default function NavBar() {
 
         {/*  */}
         <div className=''>
-          <a
+          <Link
             href='mailto:showrove200@gmail.com'
             target='_blank'
             rel='noopener noreferrer'>
             <MainBTN>Hire Me</MainBTN>
-          </a>
+          </Link>
         </div>
       </nav>
     </header>

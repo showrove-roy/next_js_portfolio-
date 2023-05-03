@@ -1,3 +1,4 @@
+
 import NavBar from "./Components/NavBar/NavBar";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
