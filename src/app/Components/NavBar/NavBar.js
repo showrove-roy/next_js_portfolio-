@@ -6,7 +6,7 @@ export default function NavBar() {
     <header className='bg-[hsla(0,0%,100%,.064)] backdrop-blur-md lg:sticky top-0 z-50'>
       <nav className='maxW py-2 flex justify-between items-center'>
         <div className='bg-gray-700 py-2 px-3 rounded-lg'>
-          <h1 className='text-xl font-semibold  text-white'>Showrove Roy</h1>
+          <MainBTN>Showrove Roy</MainBTN>
         </div>
         {/*  */}
         <div className='hidden lg:block'>

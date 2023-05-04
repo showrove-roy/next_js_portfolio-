@@ -10,9 +10,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Showroe Roy",
+  title: "Showrove Roy's - Portfolio",
   description:
-    "Hello, I'm Showrove Roy and I am a MERN stack web developer. I am always looking for new challenges and opportunities to grow as a developer.",
+    "Hello, I'm Showrove Roy, a MERN stack web developer. I am always looking for new challenges and opportunities to grow as a developer.",
 };
 
 export default function RootLayout({ children }) {
@@ -21,8 +21,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavBar />
         {children}
-        <MobileNav />
-       
+        <MobileNav />      
       </body>
     </html>
   );
