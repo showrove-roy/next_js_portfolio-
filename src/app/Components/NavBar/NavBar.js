@@ -1,12 +1,20 @@
 import Link from "next/link";
 import MainBTN from "../MainBTN/MainBTN";
+import Image from "next/image";
 
 export default function NavBar() {
   return (
     <header className='bg-[hsla(0,0%,100%,.064)] backdrop-blur-md lg:sticky top-0 z-50'>
       <nav className='maxW py-2 flex justify-between items-center'>
-        <div className='bg-gray-700 py-2 px-3 rounded-lg'>
-          <MainBTN>Showrove Roy</MainBTN>
+        <div className='py-2 '>
+          <Link href='/'>
+            <Image
+              src='/logo.png'
+              width={120}
+              height={20}
+              alt='showrove logo'
+            />
+          </Link>
         </div>
         {/*  */}
         <div className='hidden lg:block'>
