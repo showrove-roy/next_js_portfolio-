@@ -32,12 +32,12 @@ export default function ServiceCategory() {
         </div>
 
         <div className='flex flex-col items-center justify-center p-5 pb-8 space-y-6 text-center md:items-start lg:text-left'>
-          <h1 className='text-3xl font-bold text-white lg:text-4xl title'>
+          <h3 className='text-3xl font-bold text-white lg:text-4xl title'>
             Let{"'"}s develop a meaningful{" "}
             <span className='mt-0 text-transparent md:mt-5 bg-clip-text bg-gradient-to-r from-red-600 to-purple-500'>
               web application
             </span>
-          </h1>
+          </h3>
           <p className='text-white/70'>
             Whether you need a corporate website with an integrated booking
             system, a simple landing page to collect leads, or even a complete

@@ -33,9 +33,9 @@ export default function Project() {
   return (
     <section id="portfolio" className='py-8 lg:py-16'>
       <div className='flex flex-col justify-center text-center proTitle'>
-        <h1 className='py-2 text-4xl font-bold text-purple-500 md:text-5xl'>
+        <h3 className='py-2 text-4xl font-bold text-purple-500 md:text-5xl'>
           Projects I’ve done
-        </h1>
+        </h3>
         <p className='py-4 text-white opacity-75'>
           I build Web Applications that bring positive results to businesses.
           Check out a few of my projects.

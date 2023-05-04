@@ -15,7 +15,7 @@ export default function HeroSection() {
           <span>{"'"}</span>
           <span>M</span>
         </div>
-        <div className='titleN text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>
+        <h1 className='titleN text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>
           <span>S</span>
           <span>h</span>
           <span>o</span>
@@ -28,25 +28,36 @@ export default function HeroSection() {
           <span>r</span>
           <span>o</span>
           <span>y</span>
-        </div>
+        </h1>
 
         <h3 className='text-xl sm:text-2xl  font-semibold tracking-wide lg:tracking-widest	mb-10'>
           Your Web App Developer
         </h3>
 
         <div className='flex gap-2 md:justify-start justify-center'>
-          <MainBTN>
-            <span className='pr-1 wave'>👋</span>
-            {"Let's Talk"}
-          </MainBTN>
-          <MainBTN>My Resume</MainBTN>
+          <Link
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://wa.me/+8801725377836'>
+            <MainBTN>
+              <span className='pr-1 wave'>👋</span>
+              {"Let's Talk"}
+            </MainBTN>
+          </Link>
+
+          <Link
+            download='Showrove_Roy_MERN_Resume.pdf'
+            href='/cv/Showrove_Roy_MERN_Resume.pdf'
+            rel='noopener noreferrer'>
+            <MainBTN>My Resume</MainBTN>
+          </Link>
         </div>
       </div>
       <div className='md:w-1/3 w-full'>
         <Image
           className='rounded-xl mx-auto'
-          src={"/profile2.jpg"}
-          alt='Picture of the author'
+          src={"/showrove_roy.jpg"}
+          alt='showrove roy'
           width={500}
           height={500}
         />
