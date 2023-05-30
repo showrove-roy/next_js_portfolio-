@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ServiceCategory() {
   return (
@@ -50,11 +51,15 @@ export default function ServiceCategory() {
             </span>
           </p>
           <div className='mx-auto lg:mx-0'>
+            <Link  href='mailto:showrove200@gmail.com'
+            target='_blank'
+            rel='noopener noreferrer'>
             <button className='cursor-pointer relative inline-flex items-center justify-center overflow-hidden  font-medium  rounded-lg group px-6 py-3 hover:text-white bg-slate-300 text-black'>
               <span className='absolute w-0 h-0 transition-all duration-500 ease-out bg-emerald-600 rounded-full group-hover:w-56 group-hover:h-56'></span>
               <span className='absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700'></span>
               <span className='relative'>Let{"'"}s Get Started</span>
             </button>
+            </Link>
           </div>
         </div>
       </div>
