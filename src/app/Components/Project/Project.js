@@ -28,6 +28,18 @@ export default function Project() {
       liveLink: "https://take-tour-traver.web.app/",
       codeLink: "https://github.com/showrove-roy/Take-Tours-Travel",
     },
+    {
+      projectName: "Food Time-Food Delivery Landing Page",
+      imageURL: "/projects/project5.png",
+      liveLink: "https://food-time-app.netlify.app/",
+      codeLink: "https://github.com/showrove-roy/Fanatech-Frontend-interview",
+    },
+    {
+      projectName: "Challenge Us - Landing Page",
+      imageURL: "/projects/project6.png",
+      liveLink: "https://challengeus.netlify.app/",
+      codeLink: "https://github.com/showrove-roy/client_challengeus",
+    },
   ];
 
   return (
